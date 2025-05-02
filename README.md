@@ -38,7 +38,7 @@
 - Install dependencies:
   ```bash
   pip install pyTelegramBotAPI
-````
+```
 
 ### Installation
 
@@ -53,15 +53,15 @@ cd BotForgeHub
    ```env
    BOT_TOKEN=your-bot-token-here
    ```
-
+### 
 2. **Ensure these directories exist**:
-
+```shell
    * `user_data/`
    * `clones/`
    * `broadcasting/`
    * `banned/`
-
-3. **Run the bot**:
+```
+2. **Run the bot**:
 
    ```bash
    python main.py
@@ -95,6 +95,7 @@ cd BotForgeHub
 
 ### Admin Commands
 
+```lua
 * `/reply <username/user_id> <message>` – Reply to users.
 * `/broadcast <message>` – Send message to all users.
 * `/users` – List all users.
@@ -106,7 +107,7 @@ cd BotForgeHub
 * `/stopfilter <trigger>` – Delete a filter.
 * `/filters` – List all filters.
 * `/approve_clone <bot_username>` – Extend a cloned bot’s access.
-
+```
 ### Bot Cloning Steps
 
 1. Use `/clone`
