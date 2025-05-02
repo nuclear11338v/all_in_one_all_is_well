@@ -1,6 +1,3 @@
-Below is an attractive and well-structured **README.md** file for your GitHub repository, designed to showcase your Telegram bot project. It includes a section for the image (`BotForgeHub.jpg`), clear instructions, and a professional layout. The README is tailored to your project based on the provided files, which seem to describe a Telegram bot with cloning, admin management, broadcasting, and user interaction features.
-
-```markdown
 <p align="center">
   <img src="BotForgeHub.jpg" alt="BotForgeHub Logo" width="400"/>
 </p>
