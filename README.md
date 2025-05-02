@@ -2,163 +2,163 @@
   <img src="BotForgeHub.jpg" alt="BotForgeHub Logo" width="400"/>
 </p>
 
-<h1 align="center">BotForgeHub</h1>
+<h1 align="center">BᴏᴛFᴏʀɢᴇHᴜʙ</h1>
 
 <p align="center">
-  A powerful and feature-rich Telegram bot framework built with Python.
+  A Pᴏᴡᴇʀғᴜʟ Aɴᴅ Fᴇᴀᴛᴜʀᴇ-Rɪᴄʜ Tᴇʟᴇɢʀᴀᴍ Bᴏᴛ Fʀᴀᴍᴇᴡᴏʀᴋ Bᴜɪʟᴛ Wɪᴛʜ Pʏᴛʜᴏɴ.
 </p>
 
 <p align="center">
-  <a href="https://t.me/OFFICIAL_BOTFORGEHUB">Official Bot</a> •
-  <a href="https://t.me/TEAM_X_OG">Support Group</a>
+  <a href="https://t.me/OFFICIAL_BOTFORGEHUB">» Oғғɪᴄɪᴀʟ Bᴏᴛ «</a> •
+  <a href="https://t.me/TEAM_X_OG">» Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ «</a>
 </p>
 
 ---
 
-## ✨ Features
+## ✨ Fᴇᴀᴛᴜʀᴇs
 
-- **User-to-Admin Communication**: Forwards messages, media, and files from users to admins.
-- **Bot Cloning**: Easily create a clone of this bot using `/clone`. (Limit: 1 per user).
-- **Admin Tools**:
-  - Reply to users, broadcast messages, manage bans.
-  - Approve clone bots via `/approve_clone`.
-- **Custom Commands & Filters**:
-  - Add auto-response triggers using `/filter` and `/addcommand`.
-- **Multilingual Support**: Currently supports English (`en`) and Hindi (`hi`).
-- **Ban System**: Bans users with reasons; restricts access automatically.
-- **Clone Expiry**: Cloned bots run for 3 days by default (can be extended by admin).
+- **Usᴇʀ Tᴏ Aᴅᴍɪɴ Cᴏᴍᴍᴜɴɪᴄᴀᴛɪᴏɴ**: Fᴏʀᴡᴀʀᴅs Mᴇssᴀɢᴇs, Mᴇᴅɪᴀ, Aɴᴅ Fɪʟᴇs Fʀᴏᴍ Usᴇʀs Tᴏ Aᴅᴍɪɴs.
+- **Bᴏᴛ Cʟᴏɴɪɴɢ**: Eᴀsɪʟʏ Cʀᴇᴀᴛᴇ ᴀ Cʟᴏɴᴇ Oғ Tʜɪs Bᴏᴛ Usɪɴɢ `/ᴄʟᴏɴᴇ`. (Lɪᴍɪᴛ: 1 Pᴇʀ Usᴇʀ).
+- **Aᴅᴍɪɴ Tᴏᴏʟs**:
+  - Rᴇᴘʟʏ Tᴏ Usᴇʀs, Bʀᴏᴀᴅᴄᴀsᴛ Mᴇssᴀɢᴇs, Mᴀɴᴀɢᴇ Bᴀɴs.
+  - Aᴘᴘʀᴏᴠᴇ Cʟᴏɴᴇ Bᴏᴛs Vɪᴀ `/ᴀᴘᴘʀᴏᴠᴇ_ᴄʟᴏɴᴇ`.
+- **Cᴜsᴛᴏᴍ Cᴏᴍᴍᴀɴᴅs & Fɪʟᴛᴇʀs**:
+  - Aᴅᴅ Aᴜᴛᴏ Rᴇsᴘᴏɴsᴇ Tʀɪɢɢᴇʀs Usɪɴɢ `/ғɪʟᴛᴇʀ` Aɴᴅ `/ᴀᴅᴅᴄᴏᴍᴍᴀɴᴅ`.
+- **Mᴜʟᴛɪʟɪɴɢᴜᴀʟ Sᴜᴘᴘᴏʀᴛ**: Cᴜʀʀᴇɴᴛʟʏ Sᴜᴘᴘᴏʀᴛs Eɴɢʟɪsʜ (`ᴇɴ`) Aɴᴅ Hɪɴᴅɪ (`ʜɪ`).
+- **Bᴀɴ Sʏsᴛᴇᴍ**: Bᴀɴs Usᴇʀs Wɪᴛʜ Rᴇᴀsᴏɴs; Rᴇsᴛʀɪᴄᴛs Aᴄᴄᴇss Aᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ.
+- **Cʟᴏɴᴇ Exᴘɪʀʏ**: Cʟᴏɴᴇᴅ Bᴏᴛs Rᴜɴ Fᴏʀ 3 Dᴀʏs Bʏ Dᴇғᴀᴜʟᴛ (Cᴀɴ Bᴇ Exᴛᴇɴᴅᴇᴅ Bʏ Aᴅᴍɪɴ).
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Gᴇᴛᴛɪɴɢ Sᴛᴀʀᴛᴇᴅ
 
-### Prerequisites
+### Pʀᴇʀᴇϙᴜɪsɪᴛᴇs
 
-- Python 3.8+
-- Install dependencies:
-- ```bash
-  pip install pyTelegramBotAPI
+- Pʏᴛʜᴏɴ 3.8+
+- Iɴsᴛᴀʟʟ Dᴇᴘᴇɴᴅᴇɴᴄɪᴇs:
+- ```shell
+  pip install telebot
   ```
 
-## Installation
+## Iɴsᴛᴀʟʟᴀᴛɪᴏɴ
 
 ```shell
-git clone https://github.com/your-username/BotForgeHub.git
-cd BotForgeHub
+git clone 
+cd BotForgeHub_Bot
 ```
 
-1. **Set Bot Token**:
-   Create a `.env` file or edit `config.py`:
+1. **Sᴇᴛ Bᴏᴛ Tᴏᴋᴇɴ**:
+   Cʀᴇᴀᴛᴇ ᴀ `.ᴇɴᴠ` Fɪʟᴇ Oʀ Eᴅɪᴛ `Cᴏɴғɪɢ.ᴘʏ`:
 
    ```env
-   BOT_TOKEN=your-bot-token-here
+   BOT_TOKEN=19383838_YEUDR....
    ```
 ### 
-2. **Ensure these directories exist**:
+2. **Eɴsᴜʀᴇ Tʜᴇsᴇ Dɪʀᴇᴄᴛᴏʀɪᴇs Exɪsᴛ**:
 ```shell
-   * `user_data/`
-   * `clones/`
-   * `broadcasting/`
-   * `banned/`
+   * `Usᴇʀ_Dᴀᴛᴀ/`
+   * `Cʟᴏɴᴇs/`
+   * `Bʀᴏᴀᴅᴄᴀsᴛɪɴɢ/`
+   * `Bᴀɴɴᴇᴅ/`
 ```
-2. **Run the bot**:
+2. **Rᴜɴ Tʜᴇ Bᴏᴛ**:
 
    ```bash
-   python main.py
+   python3 main.py
    ```
 
 ---
 
-## ⚙️ Configuration
+## ⚙️ Cᴏɴғɪɢᴜʀᴀᴛɪᴏɴ
 
-* **Admin IDs** in `config.py`:
+* **Aᴅᴍɪɴ IDs** Iɴ `Cᴏɴғɪɢ.ᴘʏ`:
 
   ```python
   ADMIN_IDS = {123456789}
   ```
 
-* **Customize the `/start` message**:
+* **Cᴜsᴛᴏᴍɪᴢᴇ Tʜᴇ `/Sᴛᴀʀᴛ` Mᴇssᴀɢᴇ**:
 
   ```bash
-  /editstart Welcome to my bot!
+  /ᴇᴅɪᴛsᴛᴀʀᴛ Wᴇʟᴄᴏᴍᴇ Tᴏ Mʏ Bᴏᴛ!
   ```
 
 ---
 
-## 📖 Commands
+## 📖 Cᴏᴍᴍᴀɴᴅs
 
-### User Commands
+### Usᴇʀ Cᴏᴍᴍᴀɴᴅs
 
-* `/start` – Show welcome message.
-* `/help` – Help menu.
-* `/clone` – Start the cloning process.
+* `/Sᴛᴀʀᴛ` – Sʜᴏᴡ Wᴇʟᴄᴏᴍᴇ Mᴇssᴀɢᴇ.
+* `/Hᴇʟᴘ` – Hᴇʟᴘ Mᴇɴᴜ.
+* `/Cʟᴏɴᴇ` – Sᴛᴀʀᴛ Tʜᴇ Cʟᴏɴɪɴɢ Pʀᴏᴄᴇss.
 
-### Admin Commands
+### Aᴅᴍɪɴ Cᴏᴍᴍᴀɴᴅs
 
 ```lua
-* `/reply <username/user_id> <message>` – Reply to users.
-* `/broadcast <message>` – Send message to all users.
-* `/users` – List all users.
-* `/ban <user>` – Ban a user.
-* `/unban <user>` – Unban a user.
-* `/banned` – List banned users.
-* `/addcommand <command> <response>` – Add custom command.
-* `/filter <trigger> <response>` – Auto-reply on keyword.
-* `/stopfilter <trigger>` – Delete a filter.
-* `/filters` – List all filters.
-* `/approve_clone <bot_username>` – Extend a cloned bot’s access.
+* `/Rᴇᴘʟʏ <Usᴇʀɴᴀᴍᴇ/Usᴇʀ_ɪᴅ> <Mᴇssᴀɢᴇ>` – Rᴇᴘʟʏ Tᴏ Usᴇʀs.
+* `/Bʀᴏᴀᴅᴄᴀsᴛ <Mᴇssᴀɢᴇ>` – Sᴇɴᴅ Mᴇssᴀɢᴇ Tᴏ Aʟʟ Usᴇʀs.
+* `/Usᴇʀs` – Lɪsᴛ Aʟʟ Usᴇʀs.
+* `/Bᴀɴ <Usᴇʀ>` – Bᴀɴ A Usᴇʀ.
+* `/Uɴʙᴀɴ <Usᴇʀ>` – Uɴʙᴀɴ A Usᴇʀ.
+* `/Bᴀɴɴᴇᴅ` – Lɪsᴛ Bᴀɴɴᴇᴅ Usᴇʀs.
+* `/Aᴅᴅᴄᴏᴍᴍᴀɴᴅ <Cᴏᴍᴍᴀɴᴅ> <Rᴇsᴘᴏɴsᴇ>` – Aᴅᴅ Cᴜsᴛᴏᴍ Cᴏᴍᴍᴀɴᴅ.
+* `/Fɪʟᴛᴇʀ <Tʀɪɢɢᴇʀ> <Rᴇsᴘᴏɴsᴇ>` – Aᴜᴛᴏ-Rᴇᴘʟʏ Oɴ Kᴇʏᴡᴏʀᴅ.
+* `/Sᴛᴏᴘғɪʟᴛᴇʀ <Tʀɪɢɢᴇʀ>` – Dᴇʟᴇᴛᴇ A Fɪʟᴛᴇʀ.
+* `/Fɪʟᴛᴇʀs` – Lɪsᴛ Aʟʟ Fɪʟᴛᴇʀs.
+* `/Aᴘᴘʀᴏᴠᴇ_Cʟᴏɴᴇ <Bᴏᴛ_Usᴇʀɴᴀᴍᴇ>` – Exᴛᴇɴᴅ A Cʟᴏɴᴇᴅ Bᴏᴛ’s Aᴄᴄᴇss.
 ```
-### Bot Cloning Steps
+### Bᴏᴛ Cʟᴏɴɪɴɢ Sᴛᴇᴘs
 
-1. Use `/clone`
-2. Provide valid BotFather token
-3. Enter your admin ID
-4. Confirm setup
-5. Clone lives for 3 days (extendable)
+1. Usᴇ `/Cʟᴏɴᴇ`
+2. Pʀᴏᴠɪᴅᴇ Vᴀʟɪᴅ BᴏᴛFᴀᴛʜᴇʀ Tᴏᴋᴇɴ
+3. Eɴᴛᴇʀ Yᴏᴜʀ Aᴅᴍɪɴ ID
+4. Cᴏɴғɪʀᴍ Sᴇᴛᴜᴘ
+5. Cʟᴏɴᴇ Lɪᴠᴇs Fᴏʀ 3 Dᴀʏs (Exᴛᴇɴᴅᴀʙʟᴇ)
 
 ---
 
-## 📁 Project Structure
+## 📁 Pʀᴏᴊᴇᴄᴛ Sᴛʀᴜᴄᴛᴜʀᴇ
 
 ```
-BotForgeHub/
-├── main.py             # Main bot logic
-├── config.py           # Settings and admin configuration
-├── help.py             # Help command handler
-├── clone.py            # Clone logic
-├── start.py            # Start & command/filter management
-├── ban.py              # Ban system
-├── broadcast.py        # Broadcast handling
-├── user_data/          # Stores user data
-├── clones/             # Cloned bot data
-├── broadcasting/       # Broadcast files
-├── banned/             # Banned users data
+BᴏᴛFᴏʀɢᴇHᴜʙ/
+├── Mᴀɪɴ.ᴘʏ             # Mᴀɪɴ Bᴏᴛ Lᴏɢɪᴄ
+├── Cᴏɴғɪɢ.ᴘʏ           # Sᴇᴛᴛɪɴɢs Aɴᴅ Aᴅᴍɪɴ Cᴏɴғɪɢᴜʀᴀᴛɪᴏɴ
+├── Hᴇʟᴘ.ᴘʏ             # Hᴇʟᴘ Cᴏᴍᴍᴀɴᴅ Hᴀɴᴅʟᴇʀ
+├── Cʟᴏɴᴇ.ᴘʏ            # Cʟᴏɴᴇ Lᴏɢɪᴄ
+├── Sᴛᴀʀᴛ.ᴘʏ            # Sᴛᴀʀᴛ & Cᴏᴍᴍᴀɴᴅ/Fɪʟᴛᴇʀ Mᴀɴᴀɢᴇᴍᴇɴᴛ
+├── Bᴀɴ.ᴘʏ              # Bᴀɴ Sʏsᴛᴇᴍ
+├── Bʀᴏᴀᴅᴄᴀsᴛ.ᴘʏ        # Bʀᴏᴀᴅᴄᴀsᴛ Hᴀɴᴅʟɪɴɢ
+├── Usᴇʀ_ᴅᴀᴛᴀ/          # Sᴛᴏʀᴇs Usᴇʀ Dᴀᴛᴀ
+├── Cʟᴏɴᴇs/             # Cʟᴏɴᴇᴅ Bᴏᴛ Dᴀᴛᴀ
+├── Bʀᴏᴀᴅᴄᴀsᴛɪɴɢ/       # Bʀᴏᴀᴅᴄᴀsᴛ Fɪʟᴇs
+├── Bᴀɴɴᴇᴅ/             # Bᴀɴɴᴇᴅ Usᴇʀs Dᴀᴛᴀ
 ```
 
 ---
 
-## 🛠 Contributing
+## 🛠 Cᴏɴᴛʀɪʙᴜᴛɪɴɢ
 
-Contributions welcome!
+Cᴏɴᴛʀɪʙᴜᴛɪᴏɴs Wᴇʟᴄᴏᴍᴇ!
 
-1. Fork the repo
-2. Create a branch
-3. Add your changes
-4. Submit a pull request
+1. Fᴏʀᴋ Tʜᴇ Rᴇᴘᴏ
+2. Cʀᴇᴀᴛᴇ A Bʀᴀɴᴄʜ
+3. Aᴅᴅ Yᴏᴜʀ Cʜᴀɴɢᴇs
+4. Sᴜʙᴍɪᴛ A Pᴜʟʟ Rᴇϙᴜᴇsᴛ
 
 ---
 
-## ⚠️ Notes
+## ⚠️ Nᴏᴛᴇs
 
-* Cloned bots expire in 3 days unless approved.
-* Back up `user_data/` and `clones/` to prevent data loss.
-* Ensure the bot has necessary Telegram permissions.
+* Cʟᴏɴᴇᴅ Bᴏᴛs Exᴘɪʀᴇ Iɴ 3 Dᴀʏs Uɴʟᴇss Aᴘᴘʀᴏᴠᴇᴅ.
+* Bᴀᴄᴋ Uᴘ `Usᴇʀ_Dᴀᴛᴀ/` Aɴᴅ `Cʟᴏɴᴇs/` Tᴏ Pʀᴇᴠᴇɴᴛ Dᴀᴛᴀ Lᴏss.
+* Eɴsᴜʀᴇ Tʜᴇ Bᴏᴛ Hᴀs Nᴇᴄᴇssᴀʀʏ Tᴇʟᴇɢʀᴀᴍ Pᴇʀᴍɪssɪᴏɴs.
 
 ---
 
 ## 📬 Contact
 
-For issues, join our [Support Group](https://t.me/TEAM_X_OG) or open an issue on GitHub.
+For Issues, Join Our [Support Group](https://t.me/TEAM_X_OG) or open an issue on GitHub.
 Official Bot: [@OFFICIAL\_BOTFORGEHUB](https://t.me/OFFICIAL_BOTFORGEHUB)
 
 ---
