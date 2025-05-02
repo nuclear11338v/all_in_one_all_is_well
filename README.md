@@ -36,13 +36,13 @@
 
 - Python 3.8+
 - Install dependencies:
-  ```bash
+- ```bash
   pip install pyTelegramBotAPI
-```
+  ```
 
-### Installation
+## Installation
 
-```bash
+```shell
 git clone https://github.com/your-username/BotForgeHub.git
 cd BotForgeHub
 ```
