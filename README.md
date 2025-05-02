@@ -18,13 +18,13 @@
 ## ✨ Fᴇᴀᴛᴜʀᴇs
 
 - **Usᴇʀ Tᴏ Aᴅᴍɪɴ Cᴏᴍᴍᴜɴɪᴄᴀᴛɪᴏɴ**: Fᴏʀᴡᴀʀᴅs Mᴇssᴀɢᴇs, Mᴇᴅɪᴀ, Aɴᴅ Fɪʟᴇs Fʀᴏᴍ Usᴇʀs Tᴏ Aᴅᴍɪɴs.
-- **Bᴏᴛ Cʟᴏɴɪɴɢ**: Eᴀsɪʟʏ Cʀᴇᴀᴛᴇ ᴀ Cʟᴏɴᴇ Oғ Tʜɪs Bᴏᴛ Usɪɴɢ `/ᴄʟᴏɴᴇ`. (Lɪᴍɪᴛ: 1 Pᴇʀ Usᴇʀ).
+- **Bᴏᴛ Cʟᴏɴɪɴɢ**: Eᴀsɪʟʏ Cʀᴇᴀᴛᴇ ᴀ Cʟᴏɴᴇ Oғ Tʜɪs Bᴏᴛ Usɪɴɢ `/clone`. (Lɪᴍɪᴛ: 1 Pᴇʀ Usᴇʀ).
 - **Aᴅᴍɪɴ Tᴏᴏʟs**:
   - Rᴇᴘʟʏ Tᴏ Usᴇʀs, Bʀᴏᴀᴅᴄᴀsᴛ Mᴇssᴀɢᴇs, Mᴀɴᴀɢᴇ Bᴀɴs.
-  - Aᴘᴘʀᴏᴠᴇ Cʟᴏɴᴇ Bᴏᴛs Vɪᴀ `/ᴀᴘᴘʀᴏᴠᴇ_ᴄʟᴏɴᴇ`.
+  - Aᴘᴘʀᴏᴠᴇ Cʟᴏɴᴇ Bᴏᴛs Vɪᴀ `/approve_clone`.
 - **Cᴜsᴛᴏᴍ Cᴏᴍᴍᴀɴᴅs & Fɪʟᴛᴇʀs**:
-  - Aᴅᴅ Aᴜᴛᴏ Rᴇsᴘᴏɴsᴇ Tʀɪɢɢᴇʀs Usɪɴɢ `/ғɪʟᴛᴇʀ` Aɴᴅ `/ᴀᴅᴅᴄᴏᴍᴍᴀɴᴅ`.
-- **Mᴜʟᴛɪʟɪɴɢᴜᴀʟ Sᴜᴘᴘᴏʀᴛ**: Cᴜʀʀᴇɴᴛʟʏ Sᴜᴘᴘᴏʀᴛs Eɴɢʟɪsʜ (`ᴇɴ`) Aɴᴅ Hɪɴᴅɪ (`ʜɪ`).
+  - Aᴅᴅ Aᴜᴛᴏ Rᴇsᴘᴏɴsᴇ Tʀɪɢɢᴇʀs Usɪɴɢ `/filter` Aɴᴅ `/addcommand`.
+- **Mᴜʟᴛɪʟɪɴɢᴜᴀʟ Sᴜᴘᴘᴏʀᴛ**: Cᴜʀʀᴇɴᴛʟʏ Sᴜᴘᴘᴏʀᴛs Eɴɢʟɪsʜ (`En`) Aɴᴅ Hɪɴᴅɪ (`Hi`).
 - **Bᴀɴ Sʏsᴛᴇᴍ**: Bᴀɴs Usᴇʀs Wɪᴛʜ Rᴇᴀsᴏɴs; Rᴇsᴛʀɪᴄᴛs Aᴄᴄᴇss Aᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ.
 - **Cʟᴏɴᴇ Exᴘɪʀʏ**: Cʟᴏɴᴇᴅ Bᴏᴛs Rᴜɴ Fᴏʀ 3 Dᴀʏs Bʏ Dᴇғᴀᴜʟᴛ (Cᴀɴ Bᴇ Exᴛᴇɴᴅᴇᴅ Bʏ Aᴅᴍɪɴ).
 
@@ -48,7 +48,7 @@ cd BotForgeHub_Bot
 ```
 
 1. **Sᴇᴛ Bᴏᴛ Tᴏᴋᴇɴ**:
-   Cʀᴇᴀᴛᴇ ᴀ `.ᴇɴᴠ` Fɪʟᴇ Oʀ Eᴅɪᴛ `Cᴏɴғɪɢ.ᴘʏ`:
+   Cʀᴇᴀᴛᴇ ᴀ `.env` Fɪʟᴇ Oʀ Eᴅɪᴛ `config.py`:
 
    ```env
    BOT_TOKEN=19383838_YEUDR....
@@ -56,10 +56,10 @@ cd BotForgeHub_Bot
 ### 
 2. **Eɴsᴜʀᴇ Tʜᴇsᴇ Dɪʀᴇᴄᴛᴏʀɪᴇs Exɪsᴛ**:
 ```shell
-   * `Usᴇʀ_Dᴀᴛᴀ/`
-   * `Cʟᴏɴᴇs/`
-   * `Bʀᴏᴀᴅᴄᴀsᴛɪɴɢ/`
-   * `Bᴀɴɴᴇᴅ/`
+   * `user_data/`
+   * `clones/`
+   * `Broadcasting/`
+   * `Banned/`
 ```
 2. **Rᴜɴ Tʜᴇ Bᴏᴛ**:
 
@@ -71,16 +71,16 @@ cd BotForgeHub_Bot
 
 ## ⚙️ Cᴏɴғɪɢᴜʀᴀᴛɪᴏɴ
 
-* **Aᴅᴍɪɴ IDs** Iɴ `Cᴏɴғɪɢ.ᴘʏ`:
+* **Aᴅᴍɪɴ IDs** Iɴ `config.py`:
 
   ```python
   ADMIN_IDS = {123456789}
   ```
 
-* **Cᴜsᴛᴏᴍɪᴢᴇ Tʜᴇ `/Sᴛᴀʀᴛ` Mᴇssᴀɢᴇ**:
+* **Cᴜsᴛᴏᴍɪᴢᴇ Tʜᴇ `/start` Mᴇssᴀɢᴇ**:
 
   ```bash
-  /ᴇᴅɪᴛsᴛᴀʀᴛ Wᴇʟᴄᴏᴍᴇ Tᴏ Mʏ Bᴏᴛ!
+  /editstart Wᴇʟᴄᴏᴍᴇ Tᴏ Mʏ Bᴏᴛ!
   ```
 
 ---
@@ -89,28 +89,28 @@ cd BotForgeHub_Bot
 
 ### Usᴇʀ Cᴏᴍᴍᴀɴᴅs
 
-* `/Sᴛᴀʀᴛ` – Sʜᴏᴡ Wᴇʟᴄᴏᴍᴇ Mᴇssᴀɢᴇ.
-* `/Hᴇʟᴘ` – Hᴇʟᴘ Mᴇɴᴜ.
-* `/Cʟᴏɴᴇ` – Sᴛᴀʀᴛ Tʜᴇ Cʟᴏɴɪɴɢ Pʀᴏᴄᴇss.
+* `/start` – Sʜᴏᴡ Wᴇʟᴄᴏᴍᴇ Mᴇssᴀɢᴇ.
+* `/help` – Hᴇʟᴘ Mᴇɴᴜ.
+* `/clone` – Sᴛᴀʀᴛ Tʜᴇ Cʟᴏɴɪɴɢ Pʀᴏᴄᴇss.
 
 ### Aᴅᴍɪɴ Cᴏᴍᴍᴀɴᴅs
 
 ```lua
-* `/Rᴇᴘʟʏ <Usᴇʀɴᴀᴍᴇ/Usᴇʀ_ɪᴅ> <Mᴇssᴀɢᴇ>` – Rᴇᴘʟʏ Tᴏ Usᴇʀs.
-* `/Bʀᴏᴀᴅᴄᴀsᴛ <Mᴇssᴀɢᴇ>` – Sᴇɴᴅ Mᴇssᴀɢᴇ Tᴏ Aʟʟ Usᴇʀs.
-* `/Usᴇʀs` – Lɪsᴛ Aʟʟ Usᴇʀs.
-* `/Bᴀɴ <Usᴇʀ>` – Bᴀɴ A Usᴇʀ.
-* `/Uɴʙᴀɴ <Usᴇʀ>` – Uɴʙᴀɴ A Usᴇʀ.
-* `/Bᴀɴɴᴇᴅ` – Lɪsᴛ Bᴀɴɴᴇᴅ Usᴇʀs.
-* `/Aᴅᴅᴄᴏᴍᴍᴀɴᴅ <Cᴏᴍᴍᴀɴᴅ> <Rᴇsᴘᴏɴsᴇ>` – Aᴅᴅ Cᴜsᴛᴏᴍ Cᴏᴍᴍᴀɴᴅ.
-* `/Fɪʟᴛᴇʀ <Tʀɪɢɢᴇʀ> <Rᴇsᴘᴏɴsᴇ>` – Aᴜᴛᴏ-Rᴇᴘʟʏ Oɴ Kᴇʏᴡᴏʀᴅ.
-* `/Sᴛᴏᴘғɪʟᴛᴇʀ <Tʀɪɢɢᴇʀ>` – Dᴇʟᴇᴛᴇ A Fɪʟᴛᴇʀ.
-* `/Fɪʟᴛᴇʀs` – Lɪsᴛ Aʟʟ Fɪʟᴛᴇʀs.
-* `/Aᴘᴘʀᴏᴠᴇ_Cʟᴏɴᴇ <Bᴏᴛ_Usᴇʀɴᴀᴍᴇ>` – Exᴛᴇɴᴅ A Cʟᴏɴᴇᴅ Bᴏᴛ’s Aᴄᴄᴇss.
+* `/reply <username/user_id> <message>` – Rᴇᴘʟʏ Tᴏ Usᴇʀs.
+* `/broadcast <message>` – Sᴇɴᴅ Mᴇssᴀɢᴇ Tᴏ Aʟʟ Usᴇʀs.
+* `/users` – Lɪsᴛ Aʟʟ Usᴇʀs.
+* `/ban <User>` – Bᴀɴ A Usᴇʀ.
+* `/unban <user>` – Uɴʙᴀɴ A Usᴇʀ.
+* `/banned` – Lɪsᴛ Bᴀɴɴᴇᴅ Usᴇʀs.
+* `/addcommand <command> <response>` – Aᴅᴅ Cᴜsᴛᴏᴍ Cᴏᴍᴍᴀɴᴅ.
+* `/filter <trigger> <response>` – Aᴜᴛᴏ-Rᴇᴘʟʏ Oɴ Kᴇʏᴡᴏʀᴅ.
+* `/stopfilter <trigger>` – Dᴇʟᴇᴛᴇ A Fɪʟᴛᴇʀ.
+* `/filters` – Lɪsᴛ Aʟʟ Fɪʟᴛᴇʀs.
+* `/approve_clone <bot_username>` – Exᴛᴇɴᴅ A Cʟᴏɴᴇᴅ Bᴏᴛ’s Aᴄᴄᴇss.
 ```
 ### Bᴏᴛ Cʟᴏɴɪɴɢ Sᴛᴇᴘs
 
-1. Usᴇ `/Cʟᴏɴᴇ`
+1. Usᴇ `/clone`
 2. Pʀᴏᴠɪᴅᴇ Vᴀʟɪᴅ BᴏᴛFᴀᴛʜᴇʀ Tᴏᴋᴇɴ
 3. Eɴᴛᴇʀ Yᴏᴜʀ Aᴅᴍɪɴ ID
 4. Cᴏɴғɪʀᴍ Sᴇᴛᴜᴘ
@@ -122,17 +122,17 @@ cd BotForgeHub_Bot
 
 ```
 BᴏᴛFᴏʀɢᴇHᴜʙ/
-├── Mᴀɪɴ.ᴘʏ             # Mᴀɪɴ Bᴏᴛ Lᴏɢɪᴄ
-├── Cᴏɴғɪɢ.ᴘʏ           # Sᴇᴛᴛɪɴɢs Aɴᴅ Aᴅᴍɪɴ Cᴏɴғɪɢᴜʀᴀᴛɪᴏɴ
-├── Hᴇʟᴘ.ᴘʏ             # Hᴇʟᴘ Cᴏᴍᴍᴀɴᴅ Hᴀɴᴅʟᴇʀ
-├── Cʟᴏɴᴇ.ᴘʏ            # Cʟᴏɴᴇ Lᴏɢɪᴄ
-├── Sᴛᴀʀᴛ.ᴘʏ            # Sᴛᴀʀᴛ & Cᴏᴍᴍᴀɴᴅ/Fɪʟᴛᴇʀ Mᴀɴᴀɢᴇᴍᴇɴᴛ
-├── Bᴀɴ.ᴘʏ              # Bᴀɴ Sʏsᴛᴇᴍ
-├── Bʀᴏᴀᴅᴄᴀsᴛ.ᴘʏ        # Bʀᴏᴀᴅᴄᴀsᴛ Hᴀɴᴅʟɪɴɢ
-├── Usᴇʀ_ᴅᴀᴛᴀ/          # Sᴛᴏʀᴇs Usᴇʀ Dᴀᴛᴀ
-├── Cʟᴏɴᴇs/             # Cʟᴏɴᴇᴅ Bᴏᴛ Dᴀᴛᴀ
-├── Bʀᴏᴀᴅᴄᴀsᴛɪɴɢ/       # Bʀᴏᴀᴅᴄᴀsᴛ Fɪʟᴇs
-├── Bᴀɴɴᴇᴅ/             # Bᴀɴɴᴇᴅ Usᴇʀs Dᴀᴛᴀ
+├── main.py             # Mᴀɪɴ Bᴏᴛ Lᴏɢɪᴄ
+├── config.py            # Sᴇᴛᴛɪɴɢs Aɴᴅ Aᴅᴍɪɴ Cᴏɴғɪɢᴜʀᴀᴛɪᴏɴ
+├── help.py              # Hᴇʟᴘ Cᴏᴍᴍᴀɴᴅ Hᴀɴᴅʟᴇʀ
+├── clone.py            # Cʟᴏɴᴇ Lᴏɢɪᴄ
+├── start.py            # Sᴛᴀʀᴛ & Cᴏᴍᴍᴀɴᴅ/Fɪʟᴛᴇʀ Mᴀɴᴀɢᴇᴍᴇɴᴛ
+├── ban.py              # Bᴀɴ Sʏsᴛᴇᴍ
+├── broadcast.py        # Bʀᴏᴀᴅᴄᴀsᴛ Hᴀɴᴅʟɪɴɢ
+├── user_data/          # Sᴛᴏʀᴇs Usᴇʀ Dᴀᴛᴀ
+├── clones/             # Cʟᴏɴᴇᴅ Bᴏᴛ Dᴀᴛᴀ
+├── broadcasting/       # Bʀᴏᴀᴅᴄᴀsᴛ Fɪʟᴇs
+├── banned/             # Bᴀɴɴᴇᴅ Usᴇʀs Dᴀᴛᴀ
 ```
 
 ---
