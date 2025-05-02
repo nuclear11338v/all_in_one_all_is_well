@@ -2,133 +2,166 @@
   <img src="BotForgeHub.jpg" alt="BotForgeHub Logo" width="400"/>
 </p>
 
-# BotForgeHub
+<h1 align="center">BotForgeHub</h1>
 
-Welcome to **BotForgeHub**, a powerful and feature-rich Telegram bot framework built with Python and the `python-telegram-bot` library. This bot allows users to communicate with admins, supports bot cloning for custom deployments, and provides advanced features like broadcasting, user management, and content filtering. Whether you're a developer looking to create your own Telegram bot or an admin managing user interactions, BotForgeHub has you covered!
+<p align="center">
+  A powerful and feature-rich Telegram bot framework built with Python.
+</p>
+
+<p align="center">
+  <a href="https://t.me/OFFICIAL_BOTFORGEHUB">Official Bot</a> •
+  <a href="https://t.me/TEAM_X_OG">Support Group</a>
+</p>
+
+---
 
 ## ✨ Features
 
-- **User-to-Admin Communication**: Users can send text, photos, videos, and more, which are forwarded to admins for seamless interaction.
-- **Bot Cloning**: Create your own bot instance with a custom token and admin ID using the `/clone` command (limited to 1 clone per user).
+- **User-to-Admin Communication**: Forwards messages, media, and files from users to admins.
+- **Bot Cloning**: Easily create a clone of this bot using `/clone`. (Limit: 1 per user).
 - **Admin Tools**:
-  - Reply to users with `/reply <username or user_id> <message>` or directly respond to forwarded messages.
-  - Broadcast messages to all users with `/broadcast <message>` (supports text, media, and more).
-  - Manage users with `/users`, `/ban`, `/unban`, and `/banned` commands.
-  - Approve cloned bots for extended use with `/approve_clone <bot_username>`.
-- **Custom Commands and Filters**:
-  - Add custom commands with `/addcommand <command> <response>`.
-  - Set message filters with `/filter <trigger> <response>` to auto-respond to specific keywords.
-- **Multilingual Support**: Help messages available in English (`en`) and Hindi (`hi`).
-- **User Data Management**: Stores user data securely in JSON files for easy access and management.
-- **Ban System**: Admins can ban/unban users with reasons, and banned users are restricted from using the bot.
-- **Clone Expiry**: Cloned bots run for 3 days by default, with an option for admins to extend via approval.
+  - Reply to users, broadcast messages, manage bans.
+  - Approve clone bots via `/approve_clone`.
+- **Custom Commands & Filters**:
+  - Add auto-response triggers using `/filter` and `/addcommand`.
+- **Multilingual Support**: Currently supports English (`en`) and Hindi (`hi`).
+- **Ban System**: Bans users with reasons; restricts access automatically.
+- **Clone Expiry**: Cloned bots run for 3 days by default (can be extended by admin).
+
+---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- **Python 3.8+**
-- **Dependencies**: Install required packages using:
+- Python 3.8+
+- Install dependencies:
   ```bash
   pip install pyTelegramBotAPI
-  ```
+````
 
 ### Installation
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/BotForgeHub.git
-   cd BotForgeHub
+```bash
+git clone https://github.com/your-username/BotForgeHub.git
+cd BotForgeHub
+```
+
+1. **Set Bot Token**:
+   Create a `.env` file or edit `config.py`:
+
+   ```env
+   BOT_TOKEN=your-bot-token-here
    ```
 
-2. **Set Up Environment**:
-   - Create a `.env` file or set the `BOT_TOKEN` environment variable with your Telegram Bot Token from [BotFather](https://t.me/BotFather).
-     ```bash
-     BOT_TOKEN=your-bot-token-here
-     ```
+2. **Ensure these directories exist**:
 
-3. **Directory Structure**:
-   - Ensure the following directories exist: `user_data`, `clones`, `broadcasting`, and `banned`.
-   - The bot will create these automatically if they don't exist.
+   * `user_data/`
+   * `clones/`
+   * `broadcasting/`
+   * `banned/`
 
-4. **Run the Bot**:
+3. **Run the bot**:
+
    ```bash
    python main.py
    ```
 
-### Configuration
+---
 
-- **Admin IDs**: Update the `ADMIN_IDS` set in `config.py` with the Telegram user IDs of admins.
+## ⚙️ Configuration
+
+* **Admin IDs** in `config.py`:
+
   ```python
-  ADMIN_IDS = {your_admin_id_here}
+  ADMIN_IDS = {123456789}
   ```
-- **Bot Token**: Set the `BOT_TOKEN` in `config.py` or via environment variables.
-- **Custom Start Message**: Use `/editstart <message>` to customize the bot's start message.
 
-## 📖 Usage
+* **Customize the `/start` message**:
+
+  ```bash
+  /editstart Welcome to my bot!
+  ```
+
+---
+
+## 📖 Commands
 
 ### User Commands
-- `/start`: Displays the welcome message.
-- `/help`: Shows help messages (in English or Hindi).
-- `/clone`: Initiates the bot cloning process (requires a valid BotFather token and admin ID).
+
+* `/start` – Show welcome message.
+* `/help` – Help menu.
+* `/clone` – Start the cloning process.
 
 ### Admin Commands
-- `/reply <username or user_id> <message>`: Send a message to a specific user.
-- `/broadcast <message>`: Send a message or media to all users.
-- `/users`: List all registered users.
-- `/ban <username or user_id> [reason]`: Ban a user.
-- `/unban <username or user_id>`: Unban a user.
-- `/banned`: List all banned users.
-- `/addcommand <command> <response>`: Add a custom command.
-- `/filter <trigger> <response>`: Add a message filter.
-- `/stopfilter <trigger>`: Remove a filter.
-- `/filters`: List all active filters.
-- `/approve_clone <bot_username>`: Approve a cloned bot for extended use.
 
-### Cloning a Bot
-1. Use `/clone` and provide a valid BotFather token.
-2. Enter the admin ID for the cloned bot.
-3. Confirm the cloning process.
-4. The cloned bot will be active for 3 days unless approved by an admin.
+* `/reply <username/user_id> <message>` – Reply to users.
+* `/broadcast <message>` – Send message to all users.
+* `/users` – List all users.
+* `/ban <user>` – Ban a user.
+* `/unban <user>` – Unban a user.
+* `/banned` – List banned users.
+* `/addcommand <command> <response>` – Add custom command.
+* `/filter <trigger> <response>` – Auto-reply on keyword.
+* `/stopfilter <trigger>` – Delete a filter.
+* `/filters` – List all filters.
+* `/approve_clone <bot_username>` – Extend a cloned bot’s access.
 
-## 📂 Project Structure
+### Bot Cloning Steps
 
-MAIN/
-├── main.py           # Main bot script
-├── config.py         # Configuration (bot token, admin IDs)
-├── help.py           # Help messages and command
-├── clone.py          # Bot cloning functionality
-├── start.py          # Start message and custom command/filter management
-├── ban.py            # User ban/unban system
-├── broadcast.py      # Broadcasting and user listing
-├── user_data/        # Stores user data in JSON files
-├── clones/           # Stores cloned bot instances
-├── broadcasting/     # Broadcasting-related files
-├── banned/           # Ban-related files
+1. Use `/clone`
+2. Provide valid BotFather token
+3. Enter your admin ID
+4. Confirm setup
+5. Clone lives for 3 days (extendable)
 
-## 🛠️ Contributing
+---
 
-Contributions are welcome! To contribute:
+## 📁 Project Structure
 
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Make your changes and commit (`git commit -m 'Add your feature'`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Open a Pull Request.
+```
+BotForgeHub/
+├── main.py             # Main bot logic
+├── config.py           # Settings and admin configuration
+├── help.py             # Help command handler
+├── clone.py            # Clone logic
+├── start.py            # Start & command/filter management
+├── ban.py              # Ban system
+├── broadcast.py        # Broadcast handling
+├── user_data/          # Stores user data
+├── clones/             # Cloned bot data
+├── broadcasting/       # Broadcast files
+├── banned/             # Banned users data
+```
+
+---
+
+## 🛠 Contributing
+
+Contributions welcome!
+
+1. Fork the repo
+2. Create a branch
+3. Add your changes
+4. Submit a pull request
+
+---
 
 ## ⚠️ Notes
-- Cloned bots expire after 3 days unless approved by an admin.
-- Ensure the bot has sufficient permissions to forward messages and interact with users.
-- Regularly back up the `user_data` and `clones` directories to prevent data loss.
+
+* Cloned bots expire in 3 days unless approved.
+* Back up `user_data/` and `clones/` to prevent data loss.
+* Ensure the bot has necessary Telegram permissions.
+
+---
 
 ## 📬 Contact
 
-For support or inquiries, contact the admin via the bot or open an issue on GitHub.
+For issues, join our [Support Group](https://t.me/TEAM_X_OG) or open an issue on GitHub.
+Official Bot: [@OFFICIAL\_BOTFORGEHUB](https://t.me/OFFICIAL_BOTFORGEHUB)
 
 ---
 
 <p align="center">
-  Built with ❤️
-  t.me/TEAM_X_OG
-  t.me/OFFICIAL_BOTFORGEHUB
+  Built with ❤️ by <a href="https://t.me/TEAM_X_OG">TEAM_X_OG</a>
 </p>
